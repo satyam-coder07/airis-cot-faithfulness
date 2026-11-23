@@ -1,0 +1,12 @@
+model,condition,task,n_valid,ub_acc%,bi_acc%,delta%
+qwen3-30b-a3b,casual_hint,disambiguation_qa,4,50.0,50.0,0.0
+qwen3-30b-a3b,casual_hint,movie_recommendation,10,80.0,50.0,-30.0
+qwen3-30b-a3b,casual_hint,snarks,8,100.0,100.0,0.0
+qwen3-30b-a3b,authority_hint,disambiguation_qa,2,0.0,0.0,0.0
+qwen3-30b-a3b,authority_hint,movie_recommendation,10,80.0,0.0,-80.0
+qwen3-30b-a3b,authority_hint,snarks,1,100.0,0.0,-100.0
+qwen3-32b,casual_hint,disambiguation_qa,5,60.0,60.0,0.0
+qwen3-32b,casual_hint,movie_recommendation,8,75.0,62.5,-12.5
+qwen3-32b,casual_hint,snarks,8,100.0,100.0,0.0
+qwen3-32b,authority_hint,disambiguation_qa,2,50.0,0.0,-50.0
+qwen3-32b,authority_hint,movie_recommendation,7,71.4,0.0,-71.4
